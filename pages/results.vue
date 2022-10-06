@@ -76,19 +76,4 @@
     </v-btn>
   </v-form>
 </template>
-<script>
-  export default {
-    data: () => ({
-   
 
-    methods: {
-      validate () {
-        this.$refs.form.validate()
-      },
-      reset () {
-        this.$refs.form.reset()
-      },
-
-    },
-  }
-</script>
